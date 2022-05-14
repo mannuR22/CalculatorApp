@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap');
+/* font-family: 'League Spartan', sans-serif; */
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    
+    font-family: 'League Spartan', sans-serif;
+    color: white;
+}
+
+.canvas{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: hsl(222, 26%, 31%);
+}
+
+.calBox {
+    height: 540px;
+    width: 360px;
+    display: flex;
+    /* border: 1px solid #252d44; */
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+
+.top {
+    display: flex;
+    width: 95%;
+    height: 10%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.calcText {
+    font-size: 1.6em;
+}
+.themeBox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100%;
+    width: 30%;
+    font-size: 0.7em;
+    justify-content: center;
+}
+.themeSelec {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.themeText {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.themeNo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 28%;
+    justify-content: space-evenly;
+}
+.themeBar {
+    width: 95%;
+    background: #252d44;
+    height: 32%;
+    border-radius: 1em;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.tb2{
+    width: 95%;
+    background: #252d44;
+    height: 32%;
+    border-radius: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+        background-color:hsl(0, 5%, 81%);
+    
+}
+
+.tb3{
+    width: 95%;
+    background: #252d44;
+    height: 32%;
+    border-radius: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background: hsl(268, 71%, 12%);
+}
+
+.circle {
+    margin: 4px;
+    width: 25%;
+    aspect-ratio: 1/1;
+    background: #f56e5c;
+    border-radius: 1em;
+}
+/* SCREEN */
+
+.screenBoX {
+    height: 20%;
+    background: #181f32;
+    display: flex;
+    width: 95%;
+    border-radius: 6px;
+    align-items: center;
+    justify-content: center;
+}
+
+#display {
+    width: 96%;
+    display: flex;
+    font-size: 2em;
+    background: transparent;
+    border: none;
+    color: white;
+    flex-direction: row-reverse;
+    text-align: right;
+}
+
+.formScreen {
+    width: 96%;
+    height: 48%;
+    display: flex;
+    font-size: 1em;
+    align-items: center;
+    justify-content: center;
+}
+
+/* NUMPAD */
+
+.numPad {
+    height: 60%;
+    width: 95%;
+    background: hsl(223, 31%, 20%);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.row {
+    height: 17%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    /* background: black; */
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-between;
+}
+
+.key {
+    height: 76%;
+    aspect-ratio: 3/2;
+    background: white;
+    border-radius: 10px;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5em;
+}
+
+.keyDel {
+    height: 76%;
+    aspect-ratio: 3/2;
+    background: white;
+    border-radius: 10px;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.reset{
+    width: 46%;
+    height: 76%;
+    border-radius: 10px;
+    background-color: #a2b3e1;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.equals{
+    width: 46%;
+    height: 76%;
+    border-radius: 10px;
+    background-color: #f96c5b;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+/* Theme2 */
+div.calBox2{
+    color: hsl(60, 10%, 19%);
+}
+
+div.canvas2{
+    background-color:hsl(0, 0%, 90%)
+}
+
+div.screenBoX2{
+    background-color: hsl(0, 0%, 93%);
+}
+
+input.screen2{
+    color: black !important;
+}
+
+div.numPad2{
+    background-color:hsl(0, 5%, 81%);
+}
+
+div.keyDel2{
+    background: hsl(185, 42%, 37%);
+    color: white;
+}
+
+div.equals2{
+    background-color: hsl(25, 98%, 40%);
+    color: white;
+}
+
+div.key2{
+    background-color: hsl(45, 7%, 89%);
+}
+
+div.circle2{
+    background-color:#f96c5b;;
+}
+
+div.reset2{
+    background-color: hsl(185, 42%, 37%);
+}
+
+
+/* THEME 3 */
+
+div.calBox3{
+    color: hsl(60, 10%, 19%);
+    color: hsl(52, 100%, 62%) !important;
+}
+div.canvas3{
+    background-color: hsl(268, 75%, 9%);
+}
+
+div.screenBoX3{
+    background-color: hsl(268, 71%, 12%);
+    color: white !important;
+}
+
+div.Tb3{
+    background-color: hsl(268, 71%, 12%);
+}
+
+input.screen3{
+    color: hsl(52, 100%, 62%) !important;
+}
+
+div.numPad3{
+    background: hsl(268, 71%, 12%);
+}
+
+div.keyDel3{
+    background: hsl(285, 91%, 52%);
+    color: white;
+}
+
+div.equals3{
+    background-color: hsl(177, 92%, 70%);
+    color: black;
+}
+
+div.key3{
+    background-color: hsl(290, 70%, 36%);
+    color: hsl(52, 100%, 62%);
+}
+div.reset3{
+    background-color: hsl(285, 91%, 52%);
+    
+}
+
+
+
