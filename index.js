@@ -68,6 +68,7 @@ document.querySelector('.themeBar').addEventListener('click', () => {
             for (let i = 0; i < element.length; i++) {
                 element[i].classList.remove('key3');
             }
+            document.querySelector('.reset').classList.remove('reset3');
             document.querySelector('.screen').classList.remove('screen3');
             document.querySelector('.calBox').classList.remove('calBox3');
             document.querySelector('.canvas').classList.remove('canvas3');
