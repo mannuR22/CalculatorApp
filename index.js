@@ -68,16 +68,26 @@ document.querySelector('.themeBar').addEventListener('click', () => {
             for (let i = 0; i < element.length; i++) {
                 element[i].classList.remove('key3');
             }
-            document.querySelector('.reset').classList.remove('reset3');
             document.querySelector('.screen').classList.remove('screen3');
             document.querySelector('.calBox').classList.remove('calBox3');
             document.querySelector('.canvas').classList.remove('canvas3');
+            document.querySelector('.reset').classList.remove('reset3');
             document.querySelector('.screenBoX').classList.remove('screenBoX3');
 
             break;
     }
 });
 
+document.querySelector("#keyDec").addEventListener('click', () => {
+
+    if (preValue == "0") {
+        preValue = "0.";
+    } else {
+        preValue += ".";
+    }
+    document.querySelector('.screen').value = preValue;
+
+})
 
 document.querySelector("#key1").addEventListener('click', () => {
 
